@@ -1,0 +1,180 @@
+*{
+	margin: 0;
+	padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+	background: black;
+}
+
+/* The main title on the site  */
+h1{
+    position: relative;
+    top: -70px;
+    left: 120px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+}
+
+/* The position of the main tab  */
+#menu{
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+
+/*Tab attributes*/
+#menu-header-view{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    opacity: 0.9;
+    background: lightblue;
+}
+
+/* Logo positioning */
+#menu-logo-view{
+	padding-left: 20px;
+	width: 375px;
+}
+
+/* The logo on the tab side */
+#menu-logo{
+	width:100px;
+}
+
+#menu-list-positioning{
+	padding: 35px 30px 0 0;
+}
+
+/* Tab buttons attributes*/
+#menu-list li{
+	background: black;
+	color: white;
+	border: 3px solid black;
+	border-radius: 15%;
+	display: inline;
+    list-style: none;
+    padding: 5px 20px 5px 20px;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    transition: all 0.5s;
+}
+
+/* Tab buttons effects */
+#menu-list li:hover{
+	border: 3px solid white;
+	background: white;
+	color: black;
+	transition: all 0.5s;
+}
+
+#menu-list a{
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+    color: white;
+}
+
+#menu-list a:hover{
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+    color: black;
+}
+
+#home-page-background{
+    display: flex;
+    justify-content: space-around;
+    background: lightblue;
+    height: 600px;
+
+}
+
+#main-picture{
+    height: 750px;
+
+}
+.paragraph-align{
+    position: relative;
+    top: 35px;
+    left: 120px;
+    width: 450px;
+    padding: 30px 0 0 70px;
+}
+
+#menu-title{
+       font-family: 'Dancing Script', cursive;
+       font-size: 100px;
+}
+
+#menu-description p{
+    font-family: 'Dancing Script', cursive;
+	color: green;
+	font-size: 50px;
+	padding: 30px 0 30px 0;
+}
+
+#menu-photo{
+	position: relative;
+    top: 6px;
+}
+
+/* About me part */
+#about-me-container{
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/*Drawing frames for "About me"*/
+#about-me-expansion{
+    height: 600px;
+    margin: 120px;
+}
+
+#about-me-layer{
+    width: 350px;
+    height: 500px;
+    background: lightblue;
+    border-radius: 35% 35% 0 0;
+}
+
+#about-me-layer h2{
+    font-size: 45px;
+    padding: 50px 40px 40px 55px;
+    color: black;
+    background: ghostwhite;
+    border-bottom: 10px solid black;
+    border-radius: 35% 35% 0 0;
+}
+
+#about-me-paragraph p{
+    padding:25px 25px 0px 25px;
+    font-size: 25px;
+    color:black;
+}
+
+#about-me-bg-img{
+    width: 350px;
+    height: 450px;
+    position: relative;
+    top: 121px;
+    left: 100px;
+    border: 10px solid white;
+    border-radius: 15%;
+    border-bottom: 50px solid white;
+}
+
+#about-me-hearth-icon{
+    position: relative;
+    width: 40px;
+    bottom: -115px;
+    left: -215px;
+}
+
+#about-me-view-count{
+    position: relative;
+    top: 80px;
+    left: 220px;
+}
