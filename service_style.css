@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: lightcoral;
+}
+
+
+/* Service part */
+
+#service-container{
+    background: black;
+    position: relative;
+    height: 575px;
+    top: 15px;
+}
+
+#service-expansion{
+    display: flex;
+    justify-content:space-between;
+    margin: 0 120px;
+    position: relative;
+    top: 35px;
+}
+
+#service-layer{
+    width: 350px;
+    height: 500px;
+    background: lightblue;
+    border-radius: 35% 35% 0 0;
+}
+
+#service-layer h2{
+    font-size: 45px;
+    padding: 50px 40px 40px 85px;
+    color: black;
+    background: ghostwhite;
+    border-bottom: 10px solid black;
+    border-radius: 35% 35% 0 0;
+}
+
+
+/* Interactable Hover Containers */
+
+.hover-container-positioning{
+    display: flex;
+    margin: 10px 15px;
+}
+
+.hover-container{
+    width: 150px;
+    height: 150px;
+    border: 3px solid;
+    margin: 5px;
+}
+
+.hover-container p{
+    margin: 0 6%;
+}
+
+.hover-container:hover{
+    transition: 0.5s;
+    background: lightcoral;
+}
+
+.bottom-containers{
+    margin: -10px 15px;
+}
+
+.img-container{
+    width: 80px;
+    height: 80px;
+    margin: 10px 23%;
+}
+
+/* Text box */
+
+#info-container{
+    background: lightblue;
+    width: 55%;
+    height: 500px;
+}
+#info-container h2{
+    background: white;
+    padding: 55px;
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 10px solid;
+}
+.container-flex{
+    display: flex;
+}
+.info-img-container{
+    width: 200px;
+}
+
+#hover-info{
+    display: block;
+}
+
+.info-paragragh{
+    transition: all 0.5s;
+    display: none;/*It's hidden until a one of the buttons are hovered*/
+    font-size: 25px;
+    margin: 9% 14%;
+}
+
+
+
+
+
+

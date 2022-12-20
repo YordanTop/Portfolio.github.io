@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: antiquewhite;
+}
+
+
+.section-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* About me part */
+#about-me-container{
+    background: black;
+    position: relative;
+    height: 575px;
+    top:15px;
+}
+#img-content{
+    position: relative;
+    top: -65px;
+}
+/*Drawing frames for "About me"*/
+#about-me-expansion{
+    margin: 0 120px;
+    position: relative;
+    top: 35px;
+}
+
+#about-me-layer{
+    width: 350px;
+    height: 500px;
+    background: lightblue;
+    border-radius: 35% 35% 0 0;
+}
+
+#about-me-layer h2{
+    font-size: 45px;
+    padding: 50px 40px 40px 55px;
+    color: black;
+    background: ghostwhite;
+    border-bottom: 10px solid black;
+    border-radius: 35% 35% 0 0;
+}
+
+#about-me-paragraph p{
+    padding:25px 25px 0px 25px;
+    font-size: 25px;
+    color:black;
+}
+
+#about-me-bg-img{
+    width: 350px;
+    height: 450px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    border: 10px solid white;
+    border-radius: 15%;
+    border-bottom: 50px solid white;
+}
+
+#about-me-hearth-icon{
+    position: relative;
+    width: 40px;
+    bottom: -95px;
+    left: -215px;
+}
+
+#about-me-view-count{
+    position: relative;
+    top: 60px;
+    left: 220px;
+}
